@@ -7,16 +7,18 @@ import AuthPage from './components/auth/AuthPage';
 import BooksList from './components/books/BooksList'
 import BookDetail from './components/books/BookDetail'
 import BookCreate from './components/books/BookCreate'
+import Profile from './components/auth/Profile'
 
 const Routes = () => (
   <Switch>
     <Route exact path='/' component={Home}/>
     <Route path='/signup' component={AuthPage}/>
     <Route path='/login' component={AuthPage}/>
-    <Route path='/books' component = {BooksList} />
+    <Route path='/books/all' component = {BooksList} />
+    <Route  exact path='/books/new' component = {BookCreate} />
     <Route path='/books/:id' component = {BookDetail} />
-    <Route path='/books/new' component = {BookCreate} />
-    {/* <Route path='/profile' component={ProfilePage}/> */}
+    
+    <Route path='/profile' component={Profile}/>
   </Switch>
 )
 
