@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import LoginForm from './LoginForm'
 import SignupForm from './SignupForm'
 import {signup, login} from '../../services/auth'
+import Navbar from "../home/Navbar";
 
 class AuthPage extends Component {
   state={
@@ -46,6 +47,7 @@ class AuthPage extends Component {
     return (
       <div>
         <div>
+            <Navbar/>
           {pathname==='/login'?
           <LoginForm login={login} handleText={handleText}/>
           :

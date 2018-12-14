@@ -33,3 +33,50 @@
 .list-group-item:hover{
 
 }
+
+.landing{
+  background-image: url("https://www.mexicodesconocido.com.mx/wp-content/uploads/2018/08/biblioteca-vasconcelos.jpg");
+  background-size: cover;
+}
+.btn{
+  background: orange;
+  border-radius: 200px;
+  color: white;
+  margin: 10px;
+  /* text-align: center; */
+  /* position: absolute; */
+  /* top: 50%;
+  padding: 20px; */
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* align-content: center; */
+  height: 100vh;
+}
+h1{
+  background: none;
+  color: orange !important;
+  font-style: arial;
+  font-size: 140px !important;
+  opacity: .8;
+  padding: 15px;
+}
+h2{
+  background: none;
+  color: orange !important;
+  font-style: arial;
+  font-size: px !important;
+  opacity: .8;
+}
+.butt{
+  background: none;
+}
+.tex{
+  background: black;
+  text-align: center;
+  opacity: .7;
+  border-radius: 50px;
+}

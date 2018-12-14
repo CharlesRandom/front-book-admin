@@ -8,10 +8,11 @@ import BooksList from './components/books/BooksList'
 import BookDetail from './components/books/BookDetail'
 import BookCreate from './components/books/BookCreate'
 import Profile from './components/auth/Profile'
+import Landing from "./components/home/Landing";
 
 const Routes = () => (
   <Switch>
-    <Route exact path='/' component={Home}/>
+    <Route exact path='/' component={Landing}/>
     <Route path='/signup' component={AuthPage}/>
     <Route path='/login' component={AuthPage}/>
     <Route path='/books/all' component = {BooksList} />

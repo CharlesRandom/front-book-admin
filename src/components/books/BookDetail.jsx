@@ -29,7 +29,7 @@ class BookDetail extends Component {
                         </div>
                         <div className="card-body">
                             <h5 className="card-title">{book.name}</h5>
-                            <Link to="/all" className="btn btn-primary">Go back</Link>
+                            <Link to="/profile" className="btn btn-primary">Go back</Link>
                         </div>
                     </div>
                 </div>
