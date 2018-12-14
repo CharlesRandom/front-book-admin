@@ -11,7 +11,7 @@ export const allBooks = () => {
 
 //read1
 export const detailBooks = (id) => {
-    return axios.post(`${host}/books/${id}`)
+    return axios.get(`${host}/books/${id}`)
         .then(r=>r.data)
         .catch(e=>e.response)
 }
