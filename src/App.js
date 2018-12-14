@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 class App extends Component {
 
-
+  
 
   render() {
     return (
@@ -14,7 +14,7 @@ class App extends Component {
           <Link to='/login'>Login |</Link>
           <Link to='/signup'>Signup |</Link>
           <Link to='/profile'>Profile |</Link>
-          <Link onClick="">Logout</Link>
+          <button >Logout</button>
         </nav>
         <Routes/>
       </div>
