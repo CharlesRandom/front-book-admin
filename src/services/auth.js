@@ -18,7 +18,11 @@ export const login = user => {
 
 
 //logout
-
+export const logout = () => {
+  return axios.get(host + '/logout')
+    .then(r=>r.data)
+    .catch(e=>e.response)
+}
 
 //profile
 export const getProfile = () => {
