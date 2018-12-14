@@ -17,7 +17,7 @@ const Routes = () => (
     <Route path='/books/all' component = {BooksList} />
     <Route  exact path='/books/new' component = {BookCreate} />
     <Route path='/books/:id' component = {BookDetail} />
-    
+
     <Route path='/profile' component={Profile}/>
   </Switch>
 )
